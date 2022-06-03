@@ -329,7 +329,19 @@ html {
 #nineth-section p{
     font-size: 16px;
 }
+/* tenth section */
+#tenth-section .row-1{
+    height: 100vh;
 
+}
+.tenth-section button {
+    border: none;
+    font-size: 16px;
+    padding: 15px 38px;
+    background: #2b5f70;
+    font-weight: 500;
+    color: white;
+}
 /* footer */
 footer{
     background: #F1F1F1;
@@ -358,7 +370,7 @@ footer{
 #fifth-section button:hover{
     background-color: #4997a6;
 }
-#tenth-section button:hover{
+.tenth-section button:hover{
     background-color: #4997a6;
 }
 #eight-section button:hover{
@@ -454,12 +466,9 @@ footer{
         background-size: cover;
     
     }  */
-    #fifth-section {
-        padding-bottom: 75px;
-    }
 
     #fifth-section .row-1 {
-        height: 80vh;
+        height: 100%;
     }
 
     #fifth-section p,
@@ -480,13 +489,18 @@ footer{
     /* EIGHT SECTION */
 
     #eight-section .row-1 {
-        height: 80vh;
+        height: 100%;
     }
 
     #eight-section p,
     h1 {
         text-align: justify;
     }
+    /* tenth section */
+    #tenth-section .row-1 {
+        height: 100%;
+    }
+    
 
 }
 
@@ -581,6 +595,19 @@ h1 {
 
 #nineth-section .row-test2{
     border-radius: 0;
+}
+
+#tenth-section .row-1 {
+    height: 100%;
+    padding-bottom: 75px;
+}
+/* logo */
+#logo{
+    display: flex;
+    justify-content: center;
+}
+#logo img{
+    width: 80%;
 }
 
 }
