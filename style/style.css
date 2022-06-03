@@ -418,14 +418,13 @@ footer{
 
     #first-section {
         background-image: linear-gradient(0deg, rgba(41, 97, 114, 0.3), rgba(41, 97, 114, 0.3)), url("../images/firstSection.jpg");
-        background-size: 100% 100%;
+        background-size: cover;
 
     }
 
     #first-section button {
         background-color: #2b5f70;
         color: white;
-        font-weight: 500;
     }
 
     #first-section .container div {
@@ -548,6 +547,7 @@ footer{
 /* eight-section */
 #eight-section .row-1 {
     height: 100%;
+    padding-bottom: 75px;
 }
 
 #f8-img {
@@ -562,17 +562,17 @@ h1 {
 }
 /* nineth-section */
 #nineth-section .img-test1{
-    height: 20vh;
+    height: 30vh;
     border-radius: 0;
 }
 
 #nineth-section .img-test2{
-    height: 20vh;
+    height: 30vh;
     border-radius: 0px;
 }
 
 #nineth-section .img-test3{
-    height: 20vh;
+    height: 30vh;
     border-radius: 0;
 }
 #nineth-section .row-test1{
