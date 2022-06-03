@@ -82,7 +82,7 @@ html {
     position: relative;
     background-image: url("../images/firstSection.jpg");
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     background-position: center right;
     z-index: 1;
     min-height: 85vh;
