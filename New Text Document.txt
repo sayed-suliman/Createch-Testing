@@ -1,0 +1,3 @@
+main Color: #2b5f70
+2nd main color: #4997a6
+#top_heading; #F1F1F1

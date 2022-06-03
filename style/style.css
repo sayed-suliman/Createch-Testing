@@ -1,0 +1,599 @@
+.red {
+    border: 1px red solid;
+}
+
+.black {
+    border: 1px #000 solid;
+}
+
+.green {
+    border: 1px green solid;
+}
+
+.blue {
+    border: 1px blue solid;
+}
+
+.yellow {
+    border: 1px yellow solid;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* styling header */
+
+/* top header */
+.main-header-top {
+    width: 100%;
+    background-color: #F1F1F1;
+}
+
+.top-header-alignment a {
+    color: #000;
+}
+
+.top-header-alignment li {
+    padding-right: 18px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.top-header-alignment li a {
+    text-decoration: none;
+}
+
+/* top-icons */
+.top-header-alignment .fa {
+    color: #2b5f70;
+}
+
+#top-header-icons :nth-child(2) {
+    padding: 0 8px;
+}
+
+/* nav menu */
+#navbarNav ul li a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+.elite-txt{
+    font-size: small;
+}
+
+/* first section */
+#first-section::after {
+    background-image: linear-gradient(75deg, #2b5f70 53%, transparent 0%);
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+#first-section {
+    position: relative;
+    background-image: url("../images/firstSection.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center right;
+    z-index: 1;
+    min-height: 85vh;
+    color: white;
+}
+
+#first-section .container div {
+    padding: 0 20px 0 0;
+    text-align: justify;
+    /* color: red; */
+    text-shadow: 2px 2px 2px grey;
+}
+
+#first-section .container div h1 {
+    padding: 0 0 40px 0;
+}
+
+#first-section button {
+    border: none;
+    font-size: 16px;
+    padding: 15px 38px;
+    font-weight: 500;
+}
+
+/* second section */
+#second-section {
+    padding: 75px 0;
+}
+
+#second-section p {
+    width: 70%;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* third section  */
+#third-section {
+    color: #fff;
+    padding-bottom: 75px;
+}
+
+#third-section img {
+    border-radius: 0 0 30px 30px !important;
+}
+
+#third-section .card {
+    padding-bottom: 50px;
+    border-radius: 0%;
+}
+
+#third-section .card-odd {
+    background-color: #2b5f70;
+}
+
+#third-section .card-even {
+    background-color: #4997a6;
+}
+
+#third-section .card-title {
+    /* color:red; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+#third-section .card-text {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+/* fourth-section */
+
+.image-background {
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(73, 151, 166, 0.5), rgba(73, 151, 166, 0.5)), url("https://img.freepik.com/free-photo/skyline-seascape-with-skyscrapers-miami-beach_474717-57673.jpg?w=826");
+    background-size: cover;
+    background-position: center;
+}
+
+/* fifth section */
+
+#fifth-section {
+    margin-bottom: 75px;
+}
+
+#fifth-section .row-1 {
+    height: 100vh;
+}
+
+#f5-img {
+    background-image: url("../images/fifth-section.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#f6-img {
+    background-image: url("https://img.freepik.com/free-photo/surgeons-performing-operation-operation-room_1170-2220.jpg?t=st=1654238314~exp=1654238914~hmac=72bbddc892014eb2267f0fee3e4765fb8dbba3a11803c50cffbec6cbac4d55b7&w=740");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#fifth-section h1 {
+    font-family: Georgia;
+    color: #2b5f70;
+}
+
+#fifth-section p {
+    text-align: justify;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+#fifth-section button {
+    border: none;
+    font-size: 16px;
+    padding: 15px 38px;
+    background: #2b5f70;
+    font-weight: 500;
+    color: white;
+}
+
+/* sixth-section */
+
+#sixth-section h2 {
+    letter-spacing: 3px;
+    /* text-align: justify; */
+    font-family: Georgia;
+    border: none;
+    padding: 10px 80px;
+    background: #4997a6;
+    font-weight: 500;
+    color: white;
+    margin-top: -2rem;
+
+}
+#sixth-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* eight section */
+
+#eight-section .row-1{
+    height: 100vh;
+}
+#f8-img {
+    background-image: url("../images/fifth-section.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#eight-section h1 {
+    font-family: Georgia;
+    color: #2b5f70;
+}
+
+#eight-section p {
+    font-weight: 500;
+    text-align: justify;
+    font-size: 16px;
+    color: #000;
+}
+
+#eight-section button {
+    border: none;
+    font-size: 16px;
+    padding: 15px 38px;
+    background: #2b5f70;
+    font-weight: 500;
+    color: white;
+}
+/* nineth section */
+#nineth-section{
+    background-color: #2b5f70;
+    padding: 75px 0px;
+    color: white;
+}
+#nineth-section .icon{
+    font-size:40px;
+    margin: 0 5px;
+    color:#FFB842;
+}
+#nineth-section h1{
+    font-family: Georgia;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+}
+/* rows with images of ninth section */
+#nineth-section .img-test1{
+    background-image: url("../images/profile-1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    z-index: 122;
+    border-radius: 0px 25px 25px 0px;
+}
+#nineth-section .row-test1{
+    color: #000;
+    border-radius: 0px 25px 25px 0px; 
+    padding:15px 25px 15px 18px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#nineth-section .img-test2{
+    background-image: url("../images/profile-2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px 0px 0px 25px;
+}
+#nineth-section .row-test2{
+    padding:15px 18px 15px 25px;
+    color: #000;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#nineth-section .img-test3{
+    background-image: url("../images/profile-2.avif");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    z-index: 122;
+    border-radius: 0px 25px 25px 0px;
+}
+#nineth-section h4{
+    font-family: Georgia;
+    font-weight: 500;
+}
+#nineth-section p{
+    font-size: 16px;
+}
+
+/* footer */
+footer{
+    background: #F1F1F1;
+    padding: 75px 0;
+}
+#footer-number a{
+    color: #000;
+    text-decoration: none;
+}
+
+#footer-menu a{
+    color: #868686;
+    text-decoration: none;
+}
+
+/* hover css */
+
+
+#navbarNav a:hover{
+    color: #4997a6;
+}
+#first-section button:hover{
+    background-color: #4997a6;
+    color: #fff;
+}
+#fifth-section button:hover{
+    background-color: #4997a6;
+}
+#tenth-section button:hover{
+    background-color: #4997a6;
+}
+#eight-section button:hover{
+    background-color: #4997a6;
+}
+#footer-menu a:hover{
+    color:#4997a6;
+}
+#footer-number a:hover{
+    color: #4997a6;
+}
+
+/* ******************************************************************************************* */
+/* responsive 1024px      */
+@media only screen and (max-width:1025px) {
+
+    /* first section */
+    #first-section .container div {
+        padding: 0 25px 0 0;
+        /* padding: 0 0 0 50px; */
+        text-align: justify;
+        /* align-items: center; */
+    }
+
+    /* third section */
+    #third-section .container {
+        width: 100% !important;
+        /* margin: 0; */
+    }
+
+    /* fifth-section */
+
+    /* #fifth-section{
+        border: 1px #000 solid;
+        height: 100vh;
+        background-image:url("../images/fifth-section.avif");
+        background-position:40% 100%;
+        background-repeat: no-repeat;
+        background-size:contain;
+    
+    } */
+}
+
+/* responsive for tablets */
+/* ********************************************* */
+@media only screen and (max-width:991px) {
+
+    /* top nav logo */
+    #navbarNav ul li a {
+        padding-top: 20px;
+    }
+
+    /* first section */
+    #first-section::after {
+        display: none;
+    }
+
+    #first-section {
+        background-image: linear-gradient(0deg, rgba(41, 97, 114, 0.3), rgba(41, 97, 114, 0.3)), url("../images/firstSection.jpg");
+        background-size: 100% 100%;
+
+    }
+
+    #first-section button {
+        background-color: #2b5f70;
+        color: white;
+        font-weight: 500;
+    }
+
+    #first-section .container div {
+        padding-left: 0px;
+    }
+
+    /* third section */
+
+    #third-section .container .card img {
+        height: 400px;
+        /* width: 100%!important; */
+    }
+    /* southflorida image */
+    .image-background{
+        height: 60vh;
+    }
+
+    /* #fifth-section{
+        height: 100vh;
+    
+    }
+    #f5-img{
+        height: 100vh;
+        background-image:url("../images/fifth-section.avif");
+        background-position:right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }  */
+    #fifth-section {
+        padding-bottom: 75px;
+    }
+
+    #fifth-section .row-1 {
+        height: 80vh;
+    }
+
+    #fifth-section p,
+    h1 {
+        text-align: justify;
+    }
+    /* sixth section */
+
+    #sixth-section h2 {
+        /* letter-spacing: 3px; */
+        padding: 10px 50px;
+        background: #4997a6;
+        font-weight: 500;
+        color: white;
+        margin-top: -2rem;
+    
+    }
+    /* EIGHT SECTION */
+
+    #eight-section .row-1 {
+        height: 80vh;
+    }
+
+    #eight-section p,
+    h1 {
+        text-align: justify;
+    }
+
+}
+
+/* *************************************************************** */
+
+/* responsive on mobile max-width - less than 768 */
+@media only screen and (max-width:767px) {
+    .top-header-alignment li {
+        display: block;
+        text-align: center;
+    }
+
+    /* first section */
+    /* #first-section::after{
+        display: none;
+      } */
+    #first-section {
+        background-image: linear-gradient(0deg, rgba(41, 97, 114, 0.3), rgba(41, 97, 114, 0.3)), url("../images/firstSection.jpg");
+        background-size: 100% 100%;
+        min-height: 50vh;
+    }
+
+    /* second section */
+    #second-section p {
+        width: 90%;
+        text-align: justify;
+    }
+
+    /* fourth-section */
+    .image-background {
+        height: 40vh;
+        /* font-size: 32px !impo; */
+    }
+
+    .image-background h1 {
+        font-size: 32px;
+    }
+
+    /* fifth section */
+
+    #fifth-section .row-1 {
+        height: 100%;
+    }
+
+    #f5-img {
+        height: 40vh;
+
+    }
+    #f6-img {
+        height: 40vh;
+
+    }
+
+    #fifth-section p,
+    h1 {
+        text-align: justify;
+    }
+/* eight-section */
+#eight-section .row-1 {
+    height: 100%;
+}
+
+#f8-img {
+    margin-top: 15px;
+    height: 40vh;
+
+}
+
+#eight-section p,
+h1 {
+    text-align: justify;
+}
+/* nineth-section */
+#nineth-section .img-test1{
+    height: 20vh;
+    border-radius: 0;
+}
+
+#nineth-section .img-test2{
+    height: 20vh;
+    border-radius: 0px;
+}
+
+#nineth-section .img-test3{
+    height: 20vh;
+    border-radius: 0;
+}
+#nineth-section .row-test1{
+    border-radius: 0;
+}
+
+#nineth-section .row-test2{
+    border-radius: 0;
+}
+
+}
+
+/* responsive for very small devices with max-width less than 375 */
+/* @media only screen and (max-width:375px) {
+   
+
+} */
+
+/*  ****************************** minimum sizes ******************* */
+@media only screen and (min-width:1441px) {
+    #second-section p {
+        width: 50%;
+    }
+}
