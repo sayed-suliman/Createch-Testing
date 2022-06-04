@@ -115,7 +115,7 @@ html {
 #second-section p {
     width: 70%;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -150,7 +150,7 @@ html {
 
 #third-section .card-text {
     font-size: 16px !important;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 }
 
 /* fourth-section */
@@ -195,7 +195,7 @@ html {
 
 #fifth-section p {
     text-align: justify;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     color: #000;
 }
@@ -248,7 +248,7 @@ html {
 }
 
 #eight-section p {
-    font-weight: 500;
+    font-weight: 400;
     text-align: justify;
     font-size: 16px;
     color: #000;
@@ -328,11 +328,14 @@ html {
 }
 #nineth-section p{
     font-size: 16px;
+    font-weight: 400;
 }
 /* tenth section */
 #tenth-section .row-1{
     height: 100vh;
-
+}
+#tenth-section p{
+    font-weight: 400;
 }
 .tenth-section button {
     border: none;
