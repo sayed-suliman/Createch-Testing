@@ -345,7 +345,7 @@ html {
 /* footer */
 footer{
     background: #F1F1F1;
-    padding: 75px 0;
+    padding: 75px 0 25px 0;
 }
 #footer-number a{
     color: #000;
